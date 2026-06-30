@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    border-radius: 20px;
+}
+table{
+    border: 1px;
+    
+    align-items: center;
+}
