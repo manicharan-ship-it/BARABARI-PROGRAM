@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DOM Assignment 3</h1>
+        <p>Follow the instructions in <code>INSTRUCTIONS.md</code> to complete the tasks below.</p>
+    </header>
+
+
+    <main>
+        <!-- Task 1: Form Handling -->
+        <section class="task-section">
+            <h2>Task 1: Form Handling</h2>
+            <p>Welcome, <span id="display-name" class="highlight-text">Guest</span>!</p>
+            <form id="user-form">
+                <input type="text" id="username-input" placeholder="Enter your name" required>
+                <button type="submit">Update Name</button>
+            </form>
+        </section>
+
+
+        <!-- Task 2: Removing Elements -->
+        <section class="task-section">
+            <h2>Task 2: Removing Elements</h2>
+            <ul id="task-list">
+                <li>Buy groceries <button class="delete-btn">Delete</button></li>
+                <li>Clean the house <button class="delete-btn">Delete</button></li>
+                <li>Finish DOM assignment <button class="delete-btn">Delete</button></li>
+            </ul>
+        </section>
+
+
+        <!-- Task 3: DOM Traversal -->
+        <section class="task-section">
+            <h2>Task 3: DOM Traversal</h2>
+            <div id="container-box" class="box">
+                <p>Child 1</p>
+                <p>Child 2</p>
+                <p>Child 3</p>
+                <button id="color-parent-btn">Color Parent Container</button>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

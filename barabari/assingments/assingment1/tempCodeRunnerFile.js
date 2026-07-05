@@ -1,0 +1,1 @@
+let list = document.getElementsByTagName("ul");

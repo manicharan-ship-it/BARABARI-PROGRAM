@@ -1,0 +1,97 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.task-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+/* Classes to be added/removed by JavaScript */
+
+
+.dark-mode {
+    background-color: #222;
+    color: #eee;
+}
+
+
+.dark-mode .task-section {
+    background-color: #333;
+    color: #eee;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+}
+
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border: 2px solid #aaa;
+    transition: all 0.3s;
+}
+
+
+.highlight {
+    background-color: #ffeb3b;
+    border-color: #fbc02d;
+    transform: scale(1.05);
+}
+
+.dark-mode{
+background-color:#000000;
+color: #f4f4f9;
+}
+.light-mode{
+background-color:white;
+color: black;
+}
+img{
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+}
